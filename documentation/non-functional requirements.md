@@ -29,8 +29,13 @@
 
 ### Usability
 
-- The system shall provide an intuitive and user-friendly interface that accommodates users with varying levels of technological experience."
+- The system shall provide an intuitive and user-friendly interface that accommodates users with varying levels of technological experience.
 
+- The system shall provide clear and understandable error messages when something goes wrong.
+
+- The system shall allow users to interact with the chatbot without requiring extensive technical knowledge.
+
+- The system shall provide a visible indication when the chatbot is processing a request.
 
 
   
@@ -82,8 +87,8 @@
  
 - If the chatbot is for personal use or for a museum this might change. Private chats with our bot must obviously be private, if it is for public use in an exhibit that is a little less possible because it's a public place and a public tool. **(I don't think we will ever know the answer to that suggestion. I suggest we implement a sufficient level of security that will allow us to support both outcomes.)**
 
-- If we ever need to or want to upgrade or change something about our bot it must be hassle free and we need to have a way to do it seamlessly. **(Already mentionued in previous requirements. perhaps this is redundant.)**
+- If we ever need to or want to upgrade or change something about our bot it must be hassle free and we need to have a way to do it seamlessly. **(Already mentioned in previous requirements. perhaps this is redundant.)**
 
 - If there is a problem, it has to be easily identifiable and fixed quickly. **(same as the previous one)**
 
-- - The system shall adhere to industry-specific regulations and standards, ensuring legal compliance in data handling, accessibility, and operational practice. **(each requirement has been made atomic and testable as per Ben's instructions)**
+- The system shall adhere to industry-specific regulations and standards, ensuring legal compliance in data handling, accessibility, and operational practice. **(each requirement has been made atomic and testable as per Ben's instructions)**
