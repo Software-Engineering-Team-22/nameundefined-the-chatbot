@@ -1,17 +1,24 @@
 ## Non-Functional Requirements
 
+### Performance 
+
+- The chat interface shall load within 5 seconds of user's interaction.
+
+- The system shall display a response to a user's message within 10 seconds under normal operating conditions.
+
+- The system shall be able to process and interpret standard ASCII characters and symbols within user inputs.
 
 
-### Performance and Scalability
-- The system shall display a response to a user's message within 60 seconds under normal operating conditions.
 
-- The website's elements shall load within 5 seconds of user's interaction.
+### Scalability
 
 - The system shall be able to respond up to 50 users at a time without the degradation of performance.
   
-- The system shall be able to process and interpret standard ASCII characters and symbols within user inputs.
-  
 - The system shall remain operational under load of processing 50 concurrent messages a second.
+
+
+
+### Compatibility
 
 - The system shall be accessible on any device used to interact with the it.
 
@@ -20,6 +27,8 @@
 ### Reliability 
 
 - The system shall maintain an uptime of at least 99% during scheduled operating hours.
+
+- The system shall successfully process at least 99% of API requests made through the backend under normal operating conditions.
 
 - During any unscheduled maintenance hours the system shall go back online within 12 hours.
 
@@ -42,10 +51,9 @@
 
 ### Availability 
 
+- The system shall maintain an availability of at least 99% over each 7-day period.
 
-
-
-
+- The system shall notify users when the chatbot is temporarily unavailable due to maintenance or unexpected failures.
 
 
 
@@ -81,14 +89,3 @@
 
 - The system shall comply with the applicable requirements of the European Union Artificial Intelligence Act (EU AI Act), Regulation (EU) 2024/1689.
 
-
-
-## Please read
- 
-- If the chatbot is for personal use or for a museum this might change. Private chats with our bot must obviously be private, if it is for public use in an exhibit that is a little less possible because it's a public place and a public tool. **(I don't think we will ever know the answer to that suggestion. I suggest we implement a sufficient level of security that will allow us to support both outcomes.)**
-
-- If we ever need to or want to upgrade or change something about our bot it must be hassle free and we need to have a way to do it seamlessly. **(Already mentioned in previous requirements. perhaps this is redundant.)**
-
-- If there is a problem, it has to be easily identifiable and fixed quickly. **(same as the previous one)**
-
-- The system shall adhere to industry-specific regulations and standards, ensuring legal compliance in data handling, accessibility, and operational practice. **(each requirement has been made atomic and testable as per Ben's instructions)**
